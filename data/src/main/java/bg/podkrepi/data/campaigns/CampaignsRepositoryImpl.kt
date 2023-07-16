@@ -14,6 +14,6 @@ class CampaignsRepositoryImpl @Inject constructor(
     }
 
     private fun CampaignJson.toCampaign() = Campaign(
-        title = title
+        title = title ?: ""
     )
 }
