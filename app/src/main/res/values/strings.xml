@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PodkrepiBG</string>
+    <string name="campaign_picture">Campaign picture</string>
 </resources>

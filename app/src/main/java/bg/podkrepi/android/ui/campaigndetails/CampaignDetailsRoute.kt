@@ -3,14 +3,12 @@ package bg.podkrepi.android.ui.campaigndetails
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.lifecycle.viewmodel.compose.viewModel
-import bg.podkrepi.android.ui.campaigns.CampaignsViewModel
+import androidx.hilt.navigation.compose.hiltViewModel
 import bg.podkrepi.domain.campaigns.Campaign
 
 @Composable
 fun CampaignDetailsRoute(
-    viewModel: CampaignsViewModel = viewModel(),
-    onNavigateToDetails: (id: String) -> Unit
+    viewModel: CampaignDetailsViewModel = hiltViewModel(),
 ) {
     val uiState = viewModel.uiState.collectAsState()
     uiState.value.campaigns.forEach {

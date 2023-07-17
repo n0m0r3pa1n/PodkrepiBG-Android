@@ -70,6 +70,8 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.6.0"
     implementation "androidx.navigation:navigation-ui-ktx:2.6.0"
 
+    implementation "com.github.bumptech.glide:compose:1.0.0-alpha.1"
+
     implementation 'androidx.compose.material3:material3:1.2.0-alpha03'
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_viewmodel_version"
     testImplementation 'junit:junit:4.13.2'

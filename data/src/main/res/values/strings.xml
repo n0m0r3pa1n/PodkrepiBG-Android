@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="backend_url">https://dev.podkrepi.bg/api/v1/</string>
+    <string name="backend_url_debug">https://dev.podkrepi.bg/api/v1/</string>
+    <string name="backend_url">https://podkrepi.bg/api/v1/</string>
 </resources>

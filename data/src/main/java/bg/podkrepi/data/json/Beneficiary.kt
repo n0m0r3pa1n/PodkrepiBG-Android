@@ -9,5 +9,5 @@ data class Beneficiary(
     @Json(name = "type") val type: String? = null,
     @Json(name = "publicData") val publicData: String? = null,
     @Json(name = "person") val person: Person? = Person(),
-    @Json(name = "company") val company: String? = null
+    @Json(name = "company") val company: Company? = null
 )

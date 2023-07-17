@@ -1,5 +1,7 @@
 package bg.podkrepi.domain.campaigns
 
 data class Campaign(
-    val title: String
+    val id: String,
+    val title: String,
+    val campaignImageUrl: String? = null
 )

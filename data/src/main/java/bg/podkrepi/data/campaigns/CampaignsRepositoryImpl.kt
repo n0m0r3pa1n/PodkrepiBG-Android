@@ -14,6 +14,8 @@ class CampaignsRepositoryImpl @Inject constructor(
     }
 
     private fun CampaignJson.toCampaign() = Campaign(
+        id = id ?: "",
+        campaignImageUrl = "https://podkrepi.bg/api/v1/campaign-file/" + campaignFiles?.firstOrNull()?.id,
         title = title ?: ""
     )
 }

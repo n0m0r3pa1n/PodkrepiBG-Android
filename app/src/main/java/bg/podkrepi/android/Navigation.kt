@@ -33,9 +33,7 @@ fun PodkrepiNavHost(
 
         composable(CAMPAIGN_DETAILS) {
             val startingEmail = it.arguments?.getString("id")
-            CampaignDetailsRoute(
-                onNavigateToDetails = {}
-            )
+            CampaignDetailsRoute()
         }
     }
 }
